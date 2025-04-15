@@ -1,0 +1,97 @@
+/* MMM-NounishReminder.css */
+.MMM-NounishReminder .nounish-reminder {
+    width: 100%;
+    text-align: left;
+}
+
+.MMM-NounishReminder .module-header {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.MMM-NounishReminder .events-title {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+.MMM-NounishReminder .current-event {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #ff79c6;
+}
+
+.MMM-NounishReminder .highlight {
+    color: #ff79c6;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.MMM-NounishReminder .event-name {
+    margin-bottom: 5px;
+}
+
+.MMM-NounishReminder .time-remaining {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.MMM-NounishReminder table {
+    width: 100%;
+}
+
+.MMM-NounishReminder .day {
+    width: 25%;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+
+.MMM-NounishReminder .event-name {
+    width: 40%;
+}
+
+.MMM-NounishReminder .event-time {
+    width: 35%;
+    text-align: right;
+}
+
+.MMM-NounishReminder .today-event {
+    color: #8be9fd;
+}
+
+.MMM-NounishReminder .current-day {
+    color: #fa2929;
+    font-weight: bold;
+}
+
+.MMM-NounishReminder .current-day-event {
+    color: #fc3333;
+    font-weight: bold;
+}
+
+.MMM-NounishReminder .current-day-event .highlight {
+    color: #df2c2c;
+    font-weight: bold;
+}
+
+.MMM-NounishReminder .daily-event {
+    color: #ffb86c;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+.MMM-NounishReminder .daily-time {
+    text-align: right;
+}
+
+.MMM-NounishReminder .daily-highlight {
+    color: #ffb86c;
+    font-weight: bold;
+}
+
+.MMM-NounishReminder .daily-event-row {
+    border-bottom: 1px solid rgba(255, 184, 108, 0.2);
+}
