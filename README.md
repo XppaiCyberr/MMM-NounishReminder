@@ -11,7 +11,7 @@ cd ~/MagicMirror/modules
 
 2. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/MMM-NounishReminder.git
+git clone https://github.com/xppaicyberr/MMM-NounishReminder.git
 ```
 
 3. Configure the module in your `config.js` file.
