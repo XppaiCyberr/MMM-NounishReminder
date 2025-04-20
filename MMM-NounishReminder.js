@@ -17,7 +17,8 @@ Module.register("MMM-NounishReminder", {
         showAllEvents: true, // Set to true to show all events regardless of past/future
         debug: true, // Set to true to log debug info to the console
         eventTimezone: 7, // Timezone offset where events were defined (e.g., 7 for GMT+7)
-        showLocalTime: true // Set to true to convert events to local time, false to show in original timezone
+        showLocalTime: true, // Set to true to convert events to local time, false to show in original timezone
+        header: "NOUNISH REMINDERS" // Configurable header text
     },
 
     // Start the module
@@ -121,7 +122,7 @@ Module.register("MMM-NounishReminder", {
         // Module header
         const header = document.createElement("header");
         header.className = "module-header";
-        header.innerHTML = "NOUNISH REMINDERS";
+        header.innerHTML = this.config.header;
         wrapper.appendChild(header);
 
         // Current datetime

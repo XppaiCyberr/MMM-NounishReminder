@@ -11,7 +11,7 @@ cd ~/MagicMirror/modules
 
 2. Clone this repository:
 ```bash
-git clone https://github.com/xppaicyberr/MMM-NounishReminder.git
+git clone https://github.com/yourusername/MMM-NounishReminder.git
 ```
 
 3. Configure the module in your `config.js` file.
@@ -38,7 +38,8 @@ Add the following to your `config.js` file:
         showAllEvents: true, // Set to true to show all events regardless of past/future
         debug: false, // Set to true to log debug info to the console
         eventTimezone: 7, // Timezone offset where events were defined (e.g., 7 for GMT+7)
-        showLocalTime: true // Set to true to convert events to local time, false to show in original timezone
+        showLocalTime: true, // Set to true to convert events to local time, false to show in original timezone
+        header: "NOUNISH REMINDERS" // Customize the module header text
     }
 }
 ```
@@ -54,6 +55,7 @@ Add the following to your `config.js` file:
 | `debug` | Enable debug logging to the console | `true` |
 | `eventTimezone` | Timezone offset where events were defined (hours from GMT) | `7` (GMT+7) |
 | `showLocalTime` | Convert events to local time or show in original timezone | `true` |
+| `header` | Text to display in the module header | `"NOUNISH REMINDERS"` |
 
 ## Event Configuration
 
